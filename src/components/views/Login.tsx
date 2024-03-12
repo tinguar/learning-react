@@ -32,15 +32,23 @@ function Login() {
             inputDescription='Type your email'
         />
 
-        {/* <div className="mb-3">
+        <div className="mb-3">
             <label for="exampleInputPassword1" className="form-label">Password</label>
             <input type="password" className="form-control" id="exampleInputPassword1"/>
         </div>
         <div className="mb-3 form-check">
             <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
             <label className="form-check-label" for="exampleCheck1">Check me out</label>
-        </div> */}
+        </div>
         {/* <button type="submit" className="btn btn-primary">Submit</button> */}
+
+        {/* 
+            Tarea 1:
+            Roberto = Completar el formulario de login:
+                - Agregar el input de password
+                - Crear componente boton (login, reguister, editar tarea, agregar tarea, editar)
+                - Prop label, color, size
+        */}
     </form>
   )
 }
