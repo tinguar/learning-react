@@ -1,3 +1,6 @@
+> [!NOTE]
+> This is just a simple practice
+
 # learning-react
 
 ## Prerequisites:
