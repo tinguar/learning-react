@@ -42,6 +42,7 @@ function Dashboard() {
         /*  Alejandro:
                 - Crear una tabla "Crear un componente de fila de tabla" 
                 - Prop de "data"
+                - Crear la fila de la tabla como un componente de tipo atom.
         */
         }
     </div>
