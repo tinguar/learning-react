@@ -46,3 +46,6 @@ get checkout -b - para moverse a una rama nueva a partir de la rama actual
 Configuracion de git: - git config --global user.name "nombre"
 
     - git config --global user.email "correo de github"
+    clonar repositorio 
+    - git clone "link"
+

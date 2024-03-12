@@ -10,17 +10,6 @@ function App() {
 
   return (
     <>
-      {/* <Login /> */}
-
-      {/* 
-        aquitectura de carpetas
-        configuracion de redux toolkit / reduxquery / redux (manejo del estado)
-        componentes: form, tasks, login, logup
-        custom hooks
-        firebase
-        navegacion: "login", "reguistro", "dashboard"
-      */}
-
       <Dashboard />
     </>
   );
