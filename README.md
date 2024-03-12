@@ -48,4 +48,6 @@ Configuracion de git:
     - git config --global user.name "nombre"
 
     - git config --global user.email "correo de github"
+    clonar repositorio 
+    - git clone "link"
 
