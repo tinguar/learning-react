@@ -1,0 +1,10 @@
+.btn-enable{
+
+}
+
+.btn-disable{
+    cursor: not-allowed;
+    pointer-events:none;
+    background-color: gray;
+    text-decoration:line-through;
+}
