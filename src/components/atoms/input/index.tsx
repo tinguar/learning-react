@@ -35,7 +35,7 @@ function Index(
             id={inputName} 
             aria-describedby={label+"Help"}
             onChange={(e)=>handleInputChange(e)}
-            value={state.email}
+            value={state[type]}
         />
         {
             inputDescription&&(
