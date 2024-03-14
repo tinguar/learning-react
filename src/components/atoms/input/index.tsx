@@ -28,7 +28,7 @@ function Index(
 
   return (
     <div className="mb-3">
-        <label for={inputName} className="form-label">{label}</label>
+        <label htmlFor={inputName} className="form-label">{label}</label>
         <input 
             type={type}
             className="form-control" 
