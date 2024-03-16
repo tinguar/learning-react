@@ -22,12 +22,12 @@ interface IButton{
     size:ESizeButton;
     pulse:()=>void;
     id?:string;
-    disable?:boolean
+    disable?:boolean,
 }
 
 function Button({label,color,size,pulse,disable=false}:IButton) {
   return (
-    <button 
+    <button
         type="button" 
         className={`btn btn-${color} btn-${size} btn-${disable?"disable":""}`}
         onClick={()=>pulse()}
