@@ -14,10 +14,6 @@ function Login() {
         password:""
     }as ILoginFrom)
 
-    useEffect(()=>{
-        console.log(state)
-    },[state])
-
     const LoginIn=()=>{
         console.log(state)
         console.log("Logged")

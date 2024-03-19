@@ -45,7 +45,6 @@ function Dashboard() {
             <th>Difficulty</th>
           </tr>
         </thead>
-        {/* Utilize el metodo map en el arreglo de data para iterar para cada objeto */}
         <tbody>
           {data.map((item) => (
             <tr key={item.id}>
