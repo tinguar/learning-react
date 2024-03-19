@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Input from '../atoms/input'
 import Button from "../atoms/button"
 
@@ -14,10 +14,6 @@ function Login() {
         password:""
     }as ILoginFrom)
 
-    useEffect(()=>{
-        console.log(state)
-    },[state])
-
     const LoginIn=()=>{
         console.log(state)
         console.log("Logged")
@@ -28,7 +24,7 @@ function Login() {
         <Input
             type='email'
             label='Email'
-            inputName='emailFrom'
+            inputName='emailForm'
             onChangeState={setState} 
             state={state}
             inputDescription='Type your email'
@@ -37,7 +33,7 @@ function Login() {
         <Input
             type='password'
             label='Password'
-            inputName='password'
+            inputName='passwordForm'
             onChangeState={setState} 
             state={state}
             inputDescription='Type your password'

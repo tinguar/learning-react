@@ -22,7 +22,7 @@ function Index(
     const handleInputChange=(e:ChangeEvent<HTMLInputElement>)=>{
         onChangeState({
             ...state,
-            [type]:e.target.value
+            [inputName]:e.target.value
         })
     }
 

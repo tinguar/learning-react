@@ -10,7 +10,7 @@ function Layout() {
     const [navigation,setNavigation]=useState("")
 
     useEffect(()=>{
-        setNavigation("login")
+        setNavigation("register")
     },[])
     
   return (
